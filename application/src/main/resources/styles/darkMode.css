@@ -1,0 +1,45 @@
+.root.dark .label {
+    -fx-text-fill: #f2f2f2;
+}
+
+/* Set notesList and folderList */
+.root.dark .list-view {
+    -fx-background-color: #3e3e42;
+}
+
+.root.dark .list-view .list-cell {
+    -fx-background-color: #3e3e42;
+    -fx-text-fill: #ffffff;
+}
+
+.root.dark .list-view .list-cell .text {
+    -fx-text-fill: #f2f2f2;
+}
+
+.root.dark .list-view .list-cell:selected {
+    -fx-background-color: #999999;
+}
+
+/* Set menu bar menu items */
+.root.dark .context-menu {
+    -fx-background-color: #3e3e42;
+}
+
+.root.dark .menu-bar {
+    -fx-background-color: #3e3e42;
+}
+
+.root.dark .tool-bar {
+    -fx-background-color: #3e3e42;
+}
+
+.root.dark .tool-bar .button .text {
+    -fx-text-fill: #666666;
+}
+
+.root.dark .search-field {
+    -fx-background-color: #3e3e42;
+    -fx-text-fill: white;
+    -fx-border-color: #666666;
+    -fx-border-width: 2px;
+}
